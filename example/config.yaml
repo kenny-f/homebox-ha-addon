@@ -19,3 +19,7 @@ schema:
 image: "ghcr.io/jscarrott/{arch}-addon-example"
 ports:
   7745/tcp: 7745
+ingress: true
+ingress_port: 7455
+panel_icon: mdi:chart-timeline
+panel_title: Homebox
